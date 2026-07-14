@@ -699,7 +699,7 @@ h2.mask{line-height:1.02;padding-bottom:.06em}
 .scroll-prog{position:fixed;top:0;left:0;height:2px;background:var(--orange);width:0;z-index:99;transition:width .1s linear}
 
 /* side section index (desktop) */
-.side-index{position:fixed;right:26px;top:50%;transform:translateY(-50%);z-index:80;display:flex;flex-direction:column;gap:14px;mix-blend-mode:multiply}
+.side-index{position:fixed;right:26px;left:auto;top:50%;transform:translateY(-50%);z-index:80;display:flex;flex-direction:column;align-items:flex-end;gap:14px;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none;border:0}
 .side-index a{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--oxblood-30);position:relative;transition:border-color .3s,transform .3s}
 .side-index a::after{content:attr(data-label);position:absolute;right:20px;top:50%;transform:translateY(-50%) translateX(6px);font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--oxblood);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
 .side-index a:hover::after{opacity:1;transform:translateY(-50%) translateX(0)}
